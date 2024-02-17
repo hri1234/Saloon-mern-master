@@ -1,0 +1,34 @@
+.search::placeholder {
+    color: white;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    margin-top: 10px;
+}
+
+td {
+    border: 1px solid #f4f4f4;
+    border-left: 5px solid #3ba150;
+    border-style: solid none;
+    padding: 11px;
+    background-color: #fff;
+}
+
+td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+Link{
+    text-decoration: none !important;
+}
+
+

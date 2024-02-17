@@ -1,0 +1,35 @@
+.more {
+    color: white;
+    background-color: #4d4d4d;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 8% 10%;
+    border-radius: 7%;
+}
+
+.checked {
+    color: #008f0a;
+}
+
+.perform {
+    background-color: #4d4d4d;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2% 6%;
+    border-radius: 7%;
+
+}
+
+.circle {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background:
+        radial-gradient(closest-side, white 79%, transparent 80% 100%),
+        conic-gradient(rgb(5, 5, 75) 75%, rgb(195, 195, 226) 0);
+}
+
+.circle::before {
+    content: "75%";
+}
